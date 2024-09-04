@@ -1,0 +1,88 @@
+:root {
+  --light-green: hsl(148, 38%, 91%);
+  --dark-green: hsl(169, 82%, 27%);
+  --red: hsl(0, 66%, 54%);
+  --white: hsl(0, 0%, 100%);
+  --grey-medium: hsl(186, 15%, 59%);
+  --grey-dark: hsl(187, 24%, 22%);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Karla", sans-serif;
+  font-size: 1.6rem; /* 16px equivalent */
+  background-color: var(--light-green);
+  width: 100vw;
+  height: 100vh;
+}
+
+input[type="text"],
+input[type="email"] {
+  width: 100%;
+  padding: 0.625rem 0.5rem;
+  border-radius: 5px;
+  border: 1px solid var(--grey-medium);
+  font-size: 1.6rem;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+  cursor: pointer;
+}
+
+textarea {
+  width: 100%;
+  padding: 1rem;
+  border-radius: 5px;
+  border: 1px solid var(--grey-medium);
+}
+
+/* Label styles */
+label {
+  font-size: 1.4rem; /* 14px equivalent */
+  color: var(--grey-dark);
+}
+
+label::after {
+  content: " *";
+}
+
+/* Query Type styles */
+.queryType div {
+  padding: 0.625rem 0.5rem;
+  border-radius: 5px;
+  border: 1px solid var(--grey-medium);
+}
+
+/* Container styles */
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+/* Form styles */
+.form {
+  background-color: var(--white);
+  width: 100%;
+  max-width: 600px;
+  min-width: 300px;
+  padding: 2rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.form h2 {
+  color: var(--grey-dark);
+}

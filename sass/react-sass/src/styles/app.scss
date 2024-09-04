@@ -1,0 +1,19 @@
+@import "colors";
+// @use "_colors";
+body {
+  background-color: nth($colors, 2);
+  color: $color2;
+  font-size: $large;
+}
+
+.productCard {
+  max-width: 600px;
+  background-color: red;
+
+  > a {
+    color: blue;
+  }
+  > h2 {
+    color: pink;
+  }
+}
