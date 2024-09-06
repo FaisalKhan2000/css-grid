@@ -1,0 +1,29 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #1b1b1b;
+} */
+
+.panel {
+  height: 100vh;
+  background: #1b1b1b;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: royalblue;
+  border-radius: 50%;
+}
+
+.box-red {
+  background-color: orangered;
+}
